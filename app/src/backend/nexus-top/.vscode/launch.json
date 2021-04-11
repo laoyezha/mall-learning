@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "runtimeExecutable": "/home/yejx/.nvm/versions/node/v14.16.1/bin/node",
+            "runtimeExecutable": "/home/yejx/.nvm/versions/node/v14.16.0/bin/node",
             "program": "${workspaceFolder}/app.js"
         }
     ]

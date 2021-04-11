@@ -1,0 +1,552 @@
+{
+    "hangye": {
+        "description": "天猫/淘宝行业或频道类物料",
+        "sub": {
+            "jhs": {
+                "destription": "聚划算",
+                "list": [
+                    {
+                        "destription": "聚划算满减满折",
+                        "id": "32366",
+                        "active": true
+                    },
+                    {
+                        "destription": "聚划算单品爆款(开团热卖中)",
+                        "id": "31371",
+                        "active": false
+                    },
+                    {
+                        "destription": "聚划算单品爆款(预热)",
+                        "id": "31370",
+                        "active": false
+                    }
+                ]
+            },
+            "maochao": {
+                "destription": "天猫超市",
+                "list": [
+                    {
+                        "destription": "猫超满减满折",
+                        "id": "27160",
+                        "active": false
+                    },
+                    {
+                        "destription": "猫超优质爆款-猫超1元购凑单",
+                        "id": "27162",
+                        "active": true
+                    },
+                    {
+                        "destription": "猫超优质爆款-猫超第二件0元",
+                        "id": "27161",
+                        "active": true
+                    },
+                    {
+                        "destription": "猫超优质爆款-猫超单件满减包邮",
+                        "id": "27160",
+                        "active": true
+                    }
+                ]
+            },
+            "gjzy": {
+                "destription": "天猫国际直营",
+                "list": [
+                    {
+                        "destription": "国际直营双11报矿清单",
+                        "id": "37088",
+                        "active": true
+                    },
+                    {
+                        "destription": "国际直营双11补贴清单",
+                        "id": "37089",
+                        "active": true
+                    },
+                    {
+                        "destription": "国际直营正品保障-打折商品",
+                        "id": "30015",
+                        "active": false
+                    },
+                    {
+                        "destription": "天猫国际直营爆款-2件5折起",
+                        "id": "30015",
+                        "active": true
+                    },
+                    {
+                        "destription": "天猫国际直营爆款-99元选10件",
+                        "id": "30014",
+                        "active": true
+                    },
+                    {
+                        "destription": "天猫国际直营爆款-99元选3件",
+                        "id": "30013",
+                        "active": true
+                    }
+                ]
+            },
+            "tqg": {
+                "destription": "淘抢购",
+                "list": [
+                    {
+                        "destription": "淘抢购",
+                        "id": "34616",
+                        "active": true
+                    }
+                ]
+            },
+            "tttm": {
+                "destription": "天天特卖",
+                "list": [
+                    {
+                        "destription": "天天特卖",
+                        "id": "31362",
+                        "active": true
+                    }
+                ]
+            },
+            "yhh": {
+                "destription": "有好货",
+                "list": [
+                    {
+                        "destription": "有好货精品",
+                        "id": "4092",
+                        "active": true
+                    }
+                ]
+            }
+        }
+    },
+    "lianmeng": {
+        "description": "联盟小二精选类",
+        "sub": {
+            "hqzb": {
+                "destription": "好券直播",
+                "list": [
+                    {
+                        "destription": "综合",
+                        "id": "3756",
+                        "active": true
+                    },
+                    {
+                        "destription": "女装",
+                        "id": "3767",
+                        "active": true
+                    },
+                    {
+                        "destription": "家居家装",
+                        "id": "3758",
+                        "active": true
+                    },
+                    {
+                        "destription": "数码家电",
+                        "id": "3759",
+                        "active": true
+                    },
+                    {
+                        "destription": "鞋包配饰",
+                        "id": "3762",
+                        "active": true
+                    },
+                    {
+                        "destription": "美妆个护",
+                        "id": "3763",
+                        "active": true
+                    },
+                    {
+                        "destription": "男装",
+                        "id": "3764",
+                        "active": true
+                    },
+                    {
+                        "destription": "内衣",
+                        "id": "3765",
+                        "active": true
+                    },
+                    {
+                        "destription": "母婴",
+                        "id": "3760",
+                        "active": true
+                    },
+                    {
+                        "destription": "食品",
+                        "id": "3761",
+                        "active": true
+                    },
+                    {
+                        "destription": "运动户外",
+                        "id": "3766",
+                        "active": true
+                    }
+                ]
+            },
+            "ssrx": {
+                "destription": "实时热销",
+                "list": [
+                    {
+                        "destription": "综合",
+                        "id": "28026",
+                        "active": true
+                    },
+                    {
+                        "destription": "大服饰",
+                        "id": "28029",
+                        "active": true
+                    },
+                    {
+                        "destription": "大快消",
+                        "id": "28027",
+                        "active": true
+                    },
+                    {
+                        "destription": "电器美家",
+                        "id": "28028",
+                        "active": true
+                    }
+                ]
+            },
+            "bdh": {
+                "destription": "本地化生活",
+                "list": [
+                    {
+                        "destription": "今日爆款-综合",
+                        "id": "30443",
+                        "active": true
+                    },
+                    {
+                        "destription": "淘票票-电影代金券",
+                        "id": "19812",
+                        "active": true
+                    },
+                    {
+                        "destription": "大麦网-演出/演唱会/剧目/会展",
+                        "id": "25378",
+                        "active": false
+                    },
+                    {
+                        "destription": "优酷会员-视频年卡",
+                        "id": "28636",
+                        "active": true
+                    },
+                    {
+                        "destription": "有声内容-喜马拉雅年卡/儿童节目",
+                        "id": "29105",
+                        "active": true
+                    },
+                    {
+                        "destription": "阿里健康-hpv疫苗预约",
+                        "id": "25885",
+                        "active": true
+                    },
+                    {
+                        "destription": "阿里健康-体检",
+                        "id": "25886",
+                        "active": true
+                    },
+                    {
+                        "destription": "阿里健康-口腔",
+                        "id": "25888",
+                        "active": true
+                    },
+                    {
+                        "destription": "阿里健康-基因检测",
+                        "id": "25890",
+                        "active": true
+                    },
+                    {
+                        "destription": "飞猪-签证",
+                        "id": "26077",
+                        "active": true
+                    },
+                    {
+                        "destription": "飞猪-酒店",
+                        "id": "27913",
+                        "active": true
+                    },
+                    {
+                        "destription": "飞猪-自助餐",
+                        "id": "27914",
+                        "active": true
+                    },
+                    {
+                        "destription": "飞猪-门票",
+                        "id": "19811",
+                        "active": true
+                    },
+                    {
+                        "destription": "口碑-肯德基/必胜客/麦当劳",
+                        "id": "19810",
+                        "active": true
+                    },
+                    {
+                        "destription": "口碑-生活服务",
+                        "id": "28888",
+                        "active": true
+                    },
+                    {
+                        "destription": "天猫无忧购-家政服务",
+                        "id": "19814",
+                        "active": true
+                    },
+                    {
+                        "destription": "汽车定金-汽车定金",
+                        "id": "28397",
+                        "active": true
+                    }
+                ]
+            },
+            "deq": {
+                "destription": "大额券",
+                "list": [
+                    {
+                        "destription": "综合",
+                        "id": "27446",
+                        "active": true
+                    },
+                    {
+                        "destription": "女装",
+                        "id": "27448",
+                        "active": true
+                    },
+                    {
+                        "destription": "食品",
+                        "id": "27451",
+                        "active": true
+                    },
+                    {
+                        "destription": "美妆个护",
+                        "id": "27453",
+                        "active": true
+                    },
+                    {
+                        "destription": "家居家装",
+                        "id": "27798",
+                        "active": true
+                    },
+                    {
+                        "destription": "母婴",
+                        "id": "27454",
+                        "active": true
+                    }
+                ]
+            },
+            "gyb": {
+                "destription": "高佣榜",
+                "list": [
+                    {
+                        "destription": "综合",
+                        "id": "13366",
+                        "active": true
+                    },
+                    {
+                        "destription": "女装",
+                        "id": "13367",
+                        "active": true
+                    },
+                    {
+                        "destription": "家居家装",
+                        "id": "13368",
+                        "active": true
+                    },
+                    {
+                        "destription": "数码家电",
+                        "id": "13369",
+                        "active": true
+                    },
+                    {
+                        "destription": "鞋包配饰",
+                        "id": "13370",
+                        "active": true
+                    },
+                    {
+                        "destription": "美妆个护",
+                        "id": "13371",
+                        "active": true
+                    },
+                    {
+                        "destription": "男装",
+                        "id": "13372",
+                        "active": true
+                    },
+                    {
+                        "destription": "内衣",
+                        "id": "13373",
+                        "active": true
+                    },
+                    {
+                        "destription": "母婴",
+                        "id": "13374",
+                        "active": true
+                    },
+                    {
+                        "destription": "食品",
+                        "id": "13375",
+                        "active": true
+                    },
+                    {
+                        "destription": "运动户外",
+                        "id": "13376",
+                        "active": true
+                    }
+                ]
+            },
+            "ppq": {
+                "destription": "品牌券",
+                "list": [
+                    {
+                        "destription": "综合",
+                        "id": "3786",
+                        "active": true
+                    },
+                    {
+                        "destription": "女装",
+                        "id": "3788",
+                        "active": true
+                    },
+                    {
+                        "destription": "家居家装",
+                        "id": "3792",
+                        "active": true
+                    },
+                    {
+                        "destription": "数码家电",
+                        "id": "3793",
+                        "active": true
+                    },
+                    {
+                        "destription": "鞋包配饰",
+                        "id": "3796",
+                        "active": true
+                    },
+                    {
+                        "destription": "美妆个护",
+                        "id": "3794",
+                        "active": true
+                    },
+                    {
+                        "destription": "男装",
+                        "id": "3790",
+                        "active": true
+                    },
+                    {
+                        "destription": "内衣",
+                        "id": "3787",
+                        "active": true
+                    },
+                    {
+                        "destription": "母婴",
+                        "id": "3789",
+                        "active": true
+                    },
+                    {
+                        "destription": "食品",
+                        "id": "3791",
+                        "active": true
+                    },
+                    {
+                        "destription": "运动户外",
+                        "id": "3795",
+                        "active": true
+                    }
+                ]
+            },
+            "my": {
+                "destription": "母婴",
+                "list": [
+                    {
+                        "destription": "备孕",
+                        "id": "4040",
+                        "active": true
+                    },
+                    {
+                        "destription": "0至6个月",
+                        "id": "4041",
+                        "active": true
+                    },
+                    {
+                        "destription": "4至6岁",
+                        "id": "4044",
+                        "active": true
+                    },
+                    {
+                        "destription": "7至12个月",
+                        "id": "4042",
+                        "active": true
+                    },
+                    {
+                        "destription": "1至3岁",
+                        "id": "4043",
+                        "active": true
+                    },
+                    {
+                        "destription": "7至12岁",
+                        "id": "4045",
+                        "active": true
+                    }
+                ]
+            },
+            "clf": {
+                "destription": "潮流范",
+                "list": [
+                    {
+                        "destription": "潮流",
+                        "id": "4093",
+                        "active": true
+                    }
+                ]
+            },
+            "th": {
+                "destription": "特惠",
+                "list": [
+                    {
+                        "destription": "特惠",
+                        "id": "4094",
+                        "active": true
+                    }
+                ]
+            }
+        }   
+    },
+    "gongneng": {
+        "description": "功能类物料",
+        "sub": {
+            "xstj": {
+                "destription": "相似推荐",
+                "list": [
+                    {
+                        "destription": "相似推荐",
+                        "id": "13256",
+                        "active": true
+                    }
+                ]
+            },
+            "cnxh": {
+                "destription": "猜你喜欢",
+                "list": [
+                    {
+                        "destription": "全部商品",
+                        "id": "6708",
+                        "active": true
+                    },
+                    {
+                        "destription": "营销商品",
+                        "id": "28017",
+                        "active": false
+                    }
+                ]
+            },
+            "xpk": {
+                "destription": "选品库",
+                "list": [
+                    {
+                        "destription": "获取选品库列表",
+                        "id": "31519",
+                        "active": false
+                    },
+                    {
+                        "destription": "获取每个选品库的商品列表",
+                        "id": "31539",
+                        "active": false
+                    }
+                ]
+            }
+        }   
+    }
+}
