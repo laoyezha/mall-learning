@@ -1,9 +1,9 @@
-import { createStore } from 'vuex'
+import { createStore } from 'vuex';
 
 const store = createStore({
-    state: {
-        count: 0
-    }
-})
+  state: {
+    count: 0,
+  },
+});
 
-export default store
+export default store;

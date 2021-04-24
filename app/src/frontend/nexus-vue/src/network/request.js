@@ -1,31 +1,31 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const request = axios.create({
-    // baseURL
-    timeout: 5000
-})
+  // baseURL
+  timeout: 5000,
+});
 
 request.interceptors.request.use(
-    (req) => {
-        // console.log('axios req', req);
-        return req
-    },
-    err => {
-        // console.log('axios req error', JSON.stringify(err));
-        return Promise.reject(err);
-    }
-)
+  req => {
+    // console.log('axios req', req);
+    return req;
+  },
+  err => {
+    // console.log('axios req error', JSON.stringify(err));
+    return Promise.reject(err);
+  }
+);
 
 request.interceptors.response.use(
-    res => {
-        // console.log('axios res', res.data);
-        return res;
-    },
-    err => {
-        // console.log('axios res error', JSON.stringify(err));
-        return Promise.reject(err);
-    }
-)
+  res => {
+    // console.log('axios res', res.data);
+    return res;
+  },
+  err => {
+    // console.log('axios res error', JSON.stringify(err));
+    return Promise.reject(err);
+  }
+);
 // a = {
 //     "message": "Request failed with status code 404",
 //     "name": "Error",
@@ -45,4 +45,4 @@ request.interceptors.response.use(
 //         "maxBodyLength": -1
 //     }
 // }
-export default request
+export default request;

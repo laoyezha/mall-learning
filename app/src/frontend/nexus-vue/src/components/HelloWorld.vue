@@ -18,21 +18,21 @@
 </template>
 
 <script setup>
-import { defineProps, reactive } from "vue";
+import { defineProps, reactive } from 'vue';
 
 defineProps({
   msg: String,
 });
 
 const mockTest = () => {
-  fetch("/data?dataId=123")
-    .then((res) => {
+  fetch('/data?dataId=123')
+    .then(res => {
       return res.json();
     })
-    .then((data) => {
+    .then(data => {
       console.log(data);
     })
-    .catch((err) => {
+    .catch(err => {
       console.log(err);
     });
 };
@@ -40,6 +40,4 @@ const mockTest = () => {
 const state = reactive({ count: 0 });
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
