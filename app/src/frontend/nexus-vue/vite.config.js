@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import { viteMockServe } from 'vite-plugin-mock'
-import path from 'path'
-import mockjs from 'mockjs'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import { viteMockServe } from 'vite-plugin-mock';
+import path from 'path';
+// import mockjs from 'mockjs';
 
-const nodeEnv = process.env.NODE_ENV
+const nodeEnv = process.env.NODE_ENV;
 if (nodeEnv === 'development') {
-  console.log(nodeEnv)
+  console.log(nodeEnv);
 }
 // console.log('bbb', import.meta)
 
@@ -23,15 +23,14 @@ if (nodeEnv === 'development') {
 //   ]
 // })
 
-
 export default ({ command }) => {
   let prodMock = true;
-  console.log(command)
+  console.log(command);
   return {
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'src')
-      }
+        '@': path.resolve(__dirname, 'src'),
+      },
     },
     plugins: [
       vue(),
@@ -50,4 +49,3 @@ export default ({ command }) => {
     ],
   };
 };
-
