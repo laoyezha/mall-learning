@@ -1,7 +1,7 @@
 from sanic import Sanic
 from sanic.response import HTTPResponse, text
 from sanic.request import Request
-from sanic.response import text
+from sanic.response import text, html
 
 debug = True
 
@@ -15,9 +15,22 @@ app = Sanic("nexus")
 
 from os import path
 p = path.join(path.abspath(path.dirname(__file__)), 'public')
-# p = path.join(path.abspath(path.dirname(__file__)), 'public')
-app.static("/aaa", p)
+#p2 = path.join(path.abspath(path.dirname(__file__)), 'public')
+app.static("/static", p)
 
+app.static("/", p + '/index.html')
+
+
+@app.middleware("response")
+async def halt_response(request, response):
+    print(request.path)
+    print(response.status)
+    if request.path == '/aaa' and response.status == 404:
+        print('not found')
+        with open('./public/index.html', encoding='utf8') as f:
+            h = f.read()
+            return html(h)
+#    return text("I halted the response")
 
 if __name__ == '__main__':
     import multiprocessing

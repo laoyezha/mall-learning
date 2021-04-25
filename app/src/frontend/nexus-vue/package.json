@@ -2,7 +2,7 @@
   "name": "nexus-vue",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "cross-env NODE_ENV=development vite",
     "build": "cross-env NODE_ENV=production vite build",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.{js,vue}\"",

@@ -27,7 +27,7 @@ export default ({ command }) => {
   let prodMock = true;
   console.log(command);
   return {
-    // base: 'aaa',
+    base: process.env.NODE_ENV === 'development' ? '/' : '/static/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),
