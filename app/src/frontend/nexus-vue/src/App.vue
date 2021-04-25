@@ -3,7 +3,7 @@
 
   <router-view></router-view>
 
-  <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+  <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
 <script setup>

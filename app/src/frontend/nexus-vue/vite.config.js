@@ -27,6 +27,7 @@ export default ({ command }) => {
   let prodMock = true;
   console.log(command);
   return {
+    // base: 'aaa',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),

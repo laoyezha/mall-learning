@@ -8,9 +8,15 @@ debug = True
 app = Sanic("nexus")
 # app.static("/static", "/path/to/directory")
 
-@app.get("/")
-async def hello_world(request: Request) -> HTTPResponse:
-    return text("Hello, world.")
+# @app.get("/")
+# async def hello_world(request: Request) -> HTTPResponse:
+#     return text("Hello, world.")
+
+
+from os import path
+p = path.join(path.abspath(path.dirname(__file__)), 'public')
+# p = path.join(path.abspath(path.dirname(__file__)), 'public')
+app.static("/aaa", p)
 
 
 if __name__ == '__main__':

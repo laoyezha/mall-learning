@@ -1,5 +1,5 @@
 <template>
-  <h1>hhh</h1>
+  <h1>home</h1>
   <p>{{ $store.state.count }}</p>
   <el-button type="primary" @click="a">aaa</el-button>
 </template>
